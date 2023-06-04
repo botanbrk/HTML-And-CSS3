@@ -1,0 +1,208 @@
+body{
+    background: url("http://unsplash.it/1499/1000") ;
+}
+
+.makalaler{
+    background-color: wheat;
+    border-radius: 5px;
+    width: 450px;
+    margin: 10px auto;
+    padding: 30px;
+    box-sizing: border-box;
+ 
+}
+
+.makalaler1{
+    background-color: wheat;
+    height: 50px;
+    width: 400px;
+    border-radius: 10px 20px;
+}
+
+.makalaler2{
+    background-color: wheat;
+    padding: 10px;
+    border-radius: 10px 20px 30px 40px;
+}
+
+.makalaler3{
+    border-radius: 50%;
+}
+
+.makalaler4:hover{
+    transform: translate(10px, 20px) rotateZ(30deg) scale(1.2) skewX(30deg);
+    transition: 3s;
+}
+
+.makalaler3:hover{
+    box-shadow: 0 0 10px gray ;
+    transition: .3s;
+}
+
+.makalaler4{
+    border-radius: 50px/10%;
+    box-shadow: 10px 10px 10px blue, 5px -5px 5px red;
+    margin: 0 auto;
+
+}
+
+.p-ozel{
+    column-count: 3;
+    column-rule: solid red 2px;
+    text-align: justify;
+
+}
+
+.p-ozel1{
+    column-width: 100px;
+    column-gap: 10px;
+    column-rule-style: dotted;
+    column-rule-color: blue;
+    column-rule-width: 3px;
+    text-align: right;
+}
+
+.p-ozel:hover{
+    text-shadow: 0 0 1px gray;
+}
+
+.p-ozel2{
+    background-color: aqua;
+    width: 300px;
+    height: 100px;
+    overflow: hidden;
+    resize: vertical;
+}
+
+
+.p-ozel3{
+    background-color: blueviolet;
+    width: 300px;
+    height: 100px;
+    overflow: hidden;
+    resize: horizontal;
+    transition: width 2s ease-in-out 1s; 
+}
+
+.p-ozel3:hover{
+    width: 500px;
+    height: 200px;
+}
+
+.p-ozel4{
+    background-color: wheat;
+    width: 300px;
+    height: 100px;
+    overflow: hidden;
+    resize: both;
+}
+
+.p-ozel4:hover{
+    transform: translate(50px, -10px);
+
+    -webkit-transform: translate(50px, -10px);
+    -ms-transform: translate(50px, -10px);
+    background-color: violet;
+    width: 400px;
+
+    transition: transform 3s, width 2s;
+    transition-delay: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.p-ozel5{
+    background-color: aquamarine;
+    width: 300px;
+    height: 100px;
+    overflow: auto;
+}
+.p-ozel5:hover{
+    transform: rotate(-30deg);
+    transition: 1s;
+}
+
+.p-ozel6{
+    background-color: aqua;
+    width: 300px;
+    height: 100px;
+    overflow-x: scroll;
+}
+
+.p-ozel6:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.p-ozel7{
+    background-color: burlywood;
+    width: 300px;
+    height: 100px;
+    overflow-y: scroll;
+    transition: background-color 10s;
+}
+
+.p-ozel7:hover{
+    transform: skewY(-45deg);
+    transition: 3s;
+}
+
+.ozel-alanim{
+    font-size: 3rem;
+    color: white;
+    mix-blend-mode: exclusion;
+}
+
+.p-ozel8{
+    background-color: wheat;
+    font-size: 25px;
+    font-style: italic;
+    /*animation-name: anim;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;*/
+}
+
+@keyframes anim {
+    from{
+        background-color: blueviolet;
+        font-size: 20px;
+        font-style: normal;
+        width: 500px;
+
+    } 
+    to{
+        background-color: red;
+        font-size: 15px;
+        font-style: italic;
+        color:white;
+        width: 300px;
+    }
+}
+
+.p-ozel9{
+    width: 400px;
+    background-color: yellow;
+    animation: anim1 2s reverse infinite ease-in-out;
+}
+
+@keyframes anim1 {
+    0%{
+        background-color: red;
+        color: white;
+        width: 350px;
+    }
+    20%{
+        background-color: yellow;
+        width: 300px;
+    }
+    40%{
+        background-color: blue;
+        color: red;
+        width: 250px;
+    }
+    60%{
+        background-color: aqua;
+        width: 200px;
+    }
+}
