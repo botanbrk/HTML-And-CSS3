@@ -2,4 +2,4 @@
 HTML5 ve CSS3 projesi
 
 
-![](https://i.gifer.com/embedded/download/7rxj.gif)
+![](https://media0.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif)
